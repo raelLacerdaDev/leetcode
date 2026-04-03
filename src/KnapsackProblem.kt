@@ -7,13 +7,12 @@ fun main() {
     )
 }
 
-
 fun knapsackProblem(rewards: Array<Pair<Int, Int>>, maxWeight: Int): Int {
     return choose(rewards, maxWeight)
 }
 
 
-//in progress
+//top down
 private fun choose(
     rewards: Array<Pair<Int, Int>>,
     maxWeight: Int,
@@ -27,6 +26,7 @@ private fun choose(
     if (index > rewards.lastIndex) {
         return 0
     }
+
     if (currentWeight == maxWeight) {
          return 0
     }
