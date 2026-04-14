@@ -27,4 +27,7 @@ fun main() {
     println(
         minCostClimbingStairs(intArrayOf(10,15,20))
     )
+    println(
+        minCostClimbingStairs(intArrayOf(1,100,1,1,1,100,1,1,100,1))
+    )
 }
