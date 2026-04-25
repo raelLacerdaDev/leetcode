@@ -1,3 +1,5 @@
+import utilities.TreeNode
+
 fun invertTree(root: TreeNode?): TreeNode? {
     invertRecursion(root)
     return root
