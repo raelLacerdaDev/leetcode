@@ -1,3 +1,4 @@
+import utilities.TreeNode
 
 fun hasPathSum(root: TreeNode?, targetSum: Int): Boolean {
     return pathSum(root, targetSum)

@@ -1,3 +1,4 @@
+import utilities.TreeNode
 import kotlin.math.max
 
 /***
@@ -11,10 +12,7 @@ Output: 2
 
  */
 
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
-}
+
 
 fun maxDepth(root: TreeNode?): Int {
     return preOrderRecursive(root)
